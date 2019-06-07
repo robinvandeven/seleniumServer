@@ -1,0 +1,50 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-06-07T09:49:40.269Z",
+        "line": 4,
+        "name": "Navigate to storeMate online",
+        "description": "",
+        "id": "navigate-to-storemate-online;navigate-to-storemate-online",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15827173700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open chrome and navigate to storeMate Online",
+            "match": {
+              "location": "navigateToSMOnline.i_open_chrome_and_navigate_to_storeMate_Online()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          }
+        ]
+      }
+    ],
+    "name": "Navigate to storeMate Online",
+    "description": "",
+    "id": "navigate-to-storemate-online",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/navigateToSMOnline.feature",
+    "tags": [
+      {
+        "name": "@run",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
