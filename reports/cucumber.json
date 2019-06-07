@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2019-06-07T09:49:40.269Z",
+        "start_timestamp": "2019-06-07T09:57:04.468Z",
         "line": 4,
         "name": "Navigate to storeMate online",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 15827173700,
+              "duration": 6113669100,
               "status": "passed"
             },
             "line": 5,
