@@ -1,6 +1,7 @@
 package bindings;
 
 import cucumber.api.java.en.Given;
+import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -14,15 +15,16 @@ public class navigateToSMOnline {
     static WebDriver driver;
 
     static void initializDriver(){
-        try {
-            driver = new RemoteWebDriver(new URL("http://10.186.71.104:4444/wd/hub"), new ChromeOptions());
+            try {
+                driver = new RemoteWebDriver(new URL("http://10.186.71.104:4444/wd/hub"), new ChromeOptions());
 //            driver = new RemoteWebDriver(new URL("http://10.186.65.37:4567/wd/hub"), new ChromeOptions());
 
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-        }
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            }
     }
 
+    @Test
     @Given("I open chrome and navigate to storeMate Online")
     public void i_open_chrome_and_navigate_to_storeMate_Online() {
         initializDriver();
